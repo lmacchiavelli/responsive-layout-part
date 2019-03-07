@@ -2,7 +2,9 @@ body{
     padding: 20px;
     font-family: 'Roboto', sans-serif;
 }
-
+*{
+    box-sizing:border-box;
+}
 /*****************************************/
 /* INFORMATION HEADER                    */
 
@@ -120,22 +122,69 @@ $heder-wrapper-break-c          : 500px  ;
 }
 
 /*****************************************/
-/* RASSICURAZIONI                        */
+/* REASSURANCES                          */
+
+$reassurances-background        : white  ;
+$reassurances-title-color       : #B90900;
+$reassurances-text-color        : #3C3C3C;
 
 /* Media query                           */
 
+$reassurances-break-a           : 1070px ;
+
 /*****************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400');
 
 .reassurances{
     display:flex;
     flex-flow:row wrap;
-    background:red;
+    background:$reassurances-background;
     padding:20px;
+    justify-content: center;
+    
 }
-.reassurances > div{
+.reassurances > div {
+    display: flex;
+    padding: 5px 20px;
+    flex:1;
+    @media screen and (max-width:$reassurances-break-a) {
+        min-width:50%; 
+    }
+}
+.reassurances > div:not(:last-child) {
+    border-right: 1px solid #ebe9e9;
+}
+@media screen and (max-width:$reassurances-break-a) {
+    .reassurances > div{
+        justify-content:center;        
+    }
+    .reassurances > div:nth-child(2) {
+        border-right:initial;
+    }
+}
+.reassurances .col1 {
+    display: flex;
+    align-items: center;
+    padding: 0 15px 0 0;
+}
+.reassurances .col2 {
+    flex-flow: column wrap;
     display: flex;
 }
+.reassurances .titolo{
+    font-family: 'Pacifico', cursive;
+    color:$reassurances-title-color;
+    font-size: 19px;
+    white-space: nowrap;
 
-.ressurances .col2{
-  border:1px solid red;
+}
+.reassurances .dato{
+    font-family: 'Merriweather Sans', sans-serif;
+    color:$reassurances-text-color;
+    font-size:13px;
+}
+.reassurances .material-icons {
+    font-size: 34px !important;
 }

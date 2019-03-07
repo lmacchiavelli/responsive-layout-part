@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url("https://fonts.googleapis.com/css?family=Merriweather+Sans:300,400");
 body {
   padding: 20px;
   font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 /*****************************************/
@@ -113,22 +119,67 @@ body {
 }
 
 /*****************************************/
-/* RASSICURAZIONI                        */
+/* REASSURANCES                          */
 /* Media query                           */
 /*****************************************/
 .reassurances {
   display: flex;
   flex-flow: row wrap;
-  background: red;
+  background: white;
   padding: 20px;
+  justify-content: center;
 }
 
 .reassurances > div {
   display: flex;
+  padding: 5px 20px;
+  flex: 1;
+}
+@media screen and (max-width: 1070px) {
+  .reassurances > div {
+    min-width: 50%;
+  }
 }
 
-.ressurances .col2 {
-  border: 1px solid red;
+.reassurances > div:not(:last-child) {
+  border-right: 1px solid #ebe9e9;
+}
+
+@media screen and (max-width: 1070px) {
+  .reassurances > div {
+    justify-content: center;
+  }
+
+  .reassurances > div:nth-child(2) {
+    border-right: initial;
+  }
+}
+.reassurances .col1 {
+  display: flex;
+  align-items: center;
+  padding: 0 15px 0 0;
+}
+
+.reassurances .col2 {
+  flex-flow: column wrap;
+  display: flex;
+}
+
+.reassurances .titolo {
+  font-family: "Pacifico", cursive;
+  color: #B90900;
+  font-size: 19px;
+  white-space: nowrap;
+}
+
+.reassurances .dato {
+  font-family: "Merriweather Sans", sans-serif;
+  color: #3C3C3C;
+  font-size: 13px;
+}
+
+.reassurances .material-icons {
+  font-size: 34px !important;
 }
 
 /*# sourceMappingURL=style.css.map */
