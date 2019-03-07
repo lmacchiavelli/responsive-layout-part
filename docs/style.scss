@@ -3,20 +3,27 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-/*INFORMATION HEADER       */
+/*****************************************/
+/* INFORMATION HEADER                    */
 
-$background-color : red    ;
-$icon-color       : silver ;
-$text-color       : #999   ;
+$heder-wrapper-background-color : white  ;
+$heder-wrapper-icon-color       : black  ;
+$heder-wrapper-text-color       : #999   ;
 
-/***************************/
+/* Media query                           */
+    
+$heder-wrapper-break-a          : 1080px ;
+$heder-wrapper-break-b          : 730px  ;
+$heder-wrapper-break-c          : 500px  ;
+
+/*****************************************/
 
 .header-wrapper {
     display: flex;
-    background: $background-color;
+    background: $heder-wrapper-background-color;
     padding: 9px;
     box-sizing: border-box;
-    color:$text-color;
+    color:$heder-wrapper-text-color;
 }
 
 .header-wrapper>* {
@@ -39,6 +46,9 @@ $text-color       : #999   ;
     margin: auto;
     font-size: 1em;
     font-weight: 200;
+    @media screen and (max-width:$heder-wrapper-break-a) {
+        display:none;
+    }
 }
 
 .header-wrapper .titolo {
@@ -49,7 +59,7 @@ $text-color       : #999   ;
 .material-icons {
     font-size: 18px!important;
     margin-right: 4px;
-    color:$icon-color;
+    color:$heder-wrapper-icon-color;
 }
 
 .spedizione .material-icons {
@@ -77,6 +87,9 @@ $text-color       : #999   ;
 
 .header-wrapper .spedizione {
     align-items: center;
+    @media screen and (max-width:$heder-wrapper-break-b ) {
+        display:none!important;
+    }
 }
 
 .header-wrapper .spedizione .grande {
@@ -96,5 +109,16 @@ $text-color       : #999   ;
 
 .header-wrapper a {
     text-decoration: none;
-    color: $text-color;
+    color: $heder-wrapper-text-color;
 }
+
+.header-wrapper .ico_top3,
+.header-wrapper .sep2{
+    @media screen and (max-width:$heder-wrapper-break-c ) {
+        display:none!important;
+    }
+}
+
+
+
+

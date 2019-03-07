@@ -3,11 +3,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-/*INFORMATION HEADER       */
-/***************************/
+/*****************************************/
+/* INFORMATION HEADER                    */
+/* Media query                           */
+/*****************************************/
 .header-wrapper {
   display: flex;
-  background: red;
+  background: white;
   padding: 9px;
   box-sizing: border-box;
   color: #999;
@@ -34,6 +36,11 @@ body {
   font-size: 1em;
   font-weight: 200;
 }
+@media screen and (max-width: 1080px) {
+  .header-wrapper h1 {
+    display: none;
+  }
+}
 
 .header-wrapper .titolo {
   font-size: 11px;
@@ -43,7 +50,7 @@ body {
 .material-icons {
   font-size: 18px !important;
   margin-right: 4px;
-  color: silver;
+  color: black;
 }
 
 .spedizione .material-icons {
@@ -72,6 +79,11 @@ body {
 .header-wrapper .spedizione {
   align-items: center;
 }
+@media screen and (max-width: 730px) {
+  .header-wrapper .spedizione {
+    display: none !important;
+  }
+}
 
 .header-wrapper .spedizione .grande {
   font-size: 15px;
@@ -91,6 +103,13 @@ body {
 .header-wrapper a {
   text-decoration: none;
   color: #999;
+}
+
+@media screen and (max-width: 500px) {
+  .header-wrapper .ico_top3,
+.header-wrapper .sep2 {
+    display: none !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
