@@ -112,4 +112,23 @@ body {
   }
 }
 
+/*****************************************/
+/* RASSICURAZIONI                        */
+/* Media query                           */
+/*****************************************/
+.reassurances {
+  display: flex;
+  flex-flow: row wrap;
+  background: red;
+  padding: 20px;
+}
+
+.reassurances > div {
+  display: flex;
+}
+
+.ressurances .col2 {
+  border: 1px solid red;
+}
+
 /*# sourceMappingURL=style.css.map */
