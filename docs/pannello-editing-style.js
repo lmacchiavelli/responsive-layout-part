@@ -25,7 +25,7 @@ var base_style="\
 .data-column-stage{\
     display:flex;\
     justify-content:center;\
-    alingn-item:center;
+    alingn-item:center;\
 }\
 ";
 
