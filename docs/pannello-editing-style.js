@@ -47,7 +47,7 @@ function addStyle(){
     var css_style = $(".text-code").val();
     
     var style_append = '<style type="text/css" id="style-app">'+css_style+'</style>';
-    $('body').find('style-app').remove();
+    $('body').find('#style-app').remove();
     $('body').prepend(style_append);
 }
 
