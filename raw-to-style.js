@@ -9,4 +9,4 @@ function appendStyleFromRepo(file_url){
     });
 }
 
-function appendStyleFromRepo("https://raw.githubusercontent.com/lmacchiavelli/responsive-layout-part/master/docs/style-cartoon.css")
+appendStyleFromRepo("https://raw.githubusercontent.com/lmacchiavelli/responsive-layout-part/master/docs/style-test.css");
