@@ -4,7 +4,9 @@
   viene linkato da un repository github*/
 
 function appendStyleFromRepo(file_url){
-    $.get( "https://raw.githubusercontent.com/lmacchiavelli/responsive-layout-part/master/docs/style-cartoon.css", function( data ) {
+    $.get( file_url , function( data ) {
         $('<style type="text/css">'+data+'</style>').appendTo($('head'));
     });
 }
+
+function appendStyleFromRepo("https://raw.githubusercontent.com/lmacchiavelli/responsive-layout-part/master/docs/style-cartoon.css")
