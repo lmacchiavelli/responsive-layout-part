@@ -13,6 +13,7 @@ body {
 /* INFORMATION HEADER                    */
 /* Media query                           */
 /*****************************************/
+
 .header-wrapper {
   display: flex;
   background: white;
@@ -42,6 +43,7 @@ body {
   font-size: 1em;
   font-weight: 200;
 }
+
 @media screen and (max-width: 1080px) {
   .header-wrapper h1 {
     display: none;
