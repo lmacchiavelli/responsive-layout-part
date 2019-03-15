@@ -12,13 +12,16 @@ var base_style="\
     left:0px;\
     top:0px;\
 }\
+.stage > div{\
+    flex:1;\
+}\
 ";
 
 var base_interface = "\
 <div>\
     <style>"+base_style+"</style>\
     <div class='stage'>\
-        <div>\
+        <div style='position:relative;'>\
             <textarea></textarea>\
         </div>\
         <div>\
