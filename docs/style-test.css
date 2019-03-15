@@ -454,6 +454,6 @@ text-transform:uppercase;
     max-width: 240px;
     margin: 20px 0px;
 }
-.index colDx{
-    display: none;
+.index #colDx{
+    display: none!important;
 }
