@@ -15,8 +15,11 @@ var base_style="\
 ";
 
 var base_interface = "\
-<div class='stage' style='"+base_style+"'>\
+<div>\
+<style>"+base_style+"</style>\
+<div class='stage'>\
 <div><textarea></textarea></div></div></div>\
+</div>\
 </div>\
 ";
 
