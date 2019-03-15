@@ -25,6 +25,7 @@ var base_style="\
 .data-column-stage{\
     display:flex;\
     justify-content:center;\
+    alingn-item:center;
 }\
 ";
 
@@ -36,7 +37,7 @@ var base_interface = "\
             <textarea class='text-code'></textarea>\
         </div>\
         <div class='data-column-stage'>\
-                COLONNA\
+                SITO IN PRODUZIONE\
         </div>\
     </div>\
 </div>\
