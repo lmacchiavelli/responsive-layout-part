@@ -4,6 +4,7 @@ var base_style="\
 .stage{\
     display:flex;\
     flex-flow:row wrap;\
+    height: 130px;\
 }\
 .text-code{\
     height:100%;\
