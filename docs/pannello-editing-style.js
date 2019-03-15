@@ -36,3 +36,15 @@ var base_interface = "\
 $(document).ready(function(){
     $('body').prepend(base_interface);
 });
+
+
+var myVar = setInterval(addStyle, 1000);
+
+function addStyle(){
+    var css_style = $(".text-code").val();
+    console.log(css_style);
+}
+
+
+
+
