@@ -8,5 +8,4 @@ function appendStyleFromRepo(file_url){
         $('<style type="text/css">'+data+'</style>').appendTo($('head'));
     });
 }
-
-appendStyleFromRepo("https://raw.githubusercontent.com/lmacchiavelli/responsive-layout-part/master/docs/style-test.css");
+appendStyleFromRepo("https://raw.githubusercontent.com/lmacchiavelli/responsive-layout-part/master/docs/style-test.css")
