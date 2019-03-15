@@ -1,5 +1,8 @@
 "use strict";
 
+var style_append = "";
+
+
 var base_style="\
 .stage{\
     display:flex;\
@@ -38,11 +41,14 @@ $(document).ready(function(){
 });
 
 
-var myVar = setInterval(addStyle, 1000);
+var myVar = setInterval(addStyle, 3000);
 
 function addStyle(){
     var css_style = $(".text-code").val();
-    console.log(css_style);
+    
+    var style_append = '<style type="text/css" id="style-app">'+css_style+'</style>';
+    $('body').find('style-app').remove();
+    $('body').prepend(style_append);
 }
 
 
