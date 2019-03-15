@@ -16,10 +16,15 @@ var base_style="\
 
 var base_interface = "\
 <div>\
-<style>"+base_style+"</style>\
-<div class='stage'>\
-<div><textarea></textarea></div></div></div>\
-</div>\
+    <style>"+base_style+"</style>\
+    <div class='stage'>\
+        <div>\
+            <textarea></textarea>\
+        </div>\
+        <div>\
+                COLONNA\
+        </div>\
+    </div>\
 </div>\
 ";
 
