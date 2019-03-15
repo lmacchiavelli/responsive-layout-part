@@ -1,3 +1,6 @@
+//Questo
+
+
 "use strict";
 
 var style_append = "";
@@ -19,6 +22,10 @@ var base_style="\
 .stage > div{\
     flex:1;\
 }\
+.data-column-stage{\
+    display:flex;\
+    justify-content:center;\
+}\
 ";
 
 var base_interface = "\
@@ -28,7 +35,7 @@ var base_interface = "\
         <div style='position:relative;'>\
             <textarea class='text-code'></textarea>\
         </div>\
-        <div>\
+        <div class='data-column-stage'>\
                 COLONNA\
         </div>\
     </div>\
@@ -41,7 +48,7 @@ $(document).ready(function(){
 });
 
 
-var myVar = setInterval(addStyle, 3000);
+var myVar = setInterval(addStyle, 1000);
 
 function addStyle(){
     var css_style = $(".text-code").val();
