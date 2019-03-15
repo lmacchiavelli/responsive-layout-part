@@ -15,12 +15,12 @@ var base_style="\
 ";
 
 var base_interface = "\
-<div class='stage'>\
+<div class='stage' style='"+base_style+"'>\
 <div><textarea></textarea></div></div></div>\
 </div>\
 ";
 
 
 $(document).ready(function(){
-    $('body').prepend('<div>Pannello</div>')
+    $('body').prepend(base_interface);
 });
