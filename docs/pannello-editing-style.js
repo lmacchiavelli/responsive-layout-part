@@ -19,10 +19,10 @@ var base_style="\
 
 var base_interface = "\
 <div>\
-    <style class='text-code'>"+base_style+"</style>\
+    <style>"+base_style+"</style>\
     <div class='stage'>\
         <div style='position:relative;'>\
-            <textarea></textarea>\
+            <textarea class='text-code'></textarea>\
         </div>\
         <div>\
                 COLONNA\
