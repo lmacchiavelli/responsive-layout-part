@@ -1,0 +1,104 @@
+#colMid #mainSearchFormBox .boxTitle span {
+    padding: 5px 0;
+}
+#colMid #mainSearchFormBox .boxTitle span, #colMid #categoriesLinksContainer .boxTitle span, #colMid .web-page-items .boxTitle span, #colMid #compatTypesBox .boxTitle span, #colMid #sendOrder .boxTitle span {
+    background-color: #0f265f;
+    color: #fff;
+}
+#colMid #mainSearchFormBox .boxTitle span, #colMid #categoriesLinksContainer .boxTitle span, #colMid .web-page-items .boxTitle span, #colMid #compatTypesBox .boxTitle span, #colMid #sendOrder .boxTitle span {
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+}
+#colMid #mainSearchFormBox, #colMid #categoriesLinksContainer, #colMid #compatTypesBox, #colMid .web-page-items, #sendOrder {
+    border-radius: 0px!important;
+    border: 1px dashed #c5c5c5;
+    -webkit-box-shadow: -1px 2px 5px #0000002b;
+    box-shadow: -1px 2px 5px #0000002b;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#mainSearchFormBox input {
+    width: 65%;
+    float: left;
+    padding: 5px;
+    margin: 0 0 5px 0;
+}
+input[type="text"], input[type="password"], select, textarea {
+    -webkit-box-shadow: 1px 1px 3px #fff0e6 inset;
+    -moz-box-shadow: 1px 1px 3px #fff0e6 inset;
+    box-shadow: 1px 1px 3px #fff0e6 inset;
+}
+
+
+#mainSearchFormButton {
+    padding: 5px 16px!important;
+}
+#mainSearchFormButton {
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.18, 2.01);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.18, 2.01);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.18, 2.01);
+}
+#mainSearchFormButton {
+    background: none;
+    height: 32px;
+    margin: 0px 10px;
+    width: 32px;
+    border-radius: 0px;
+    position: relative;
+    border: 0px;
+    background: #2270d8;
+}
+
+#mainSearchFormButton:before {
+    content: "";
+    width: 17px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 8px;
+    top: 15px;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+#mainSearchFormButton:after, #mainSearchFormButton:before {
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.18, 2.01);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.18, 2.01);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.18, 2.01);
+}
+
+#mainSearchFormButton:after {
+    content: "";
+    width: 17px;
+    height: 3px;
+    background: #fff;
+    position: absolute;
+    left: 8px;
+    top: 15px;
+}
+
+#mainSearchFormButton.open {
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.18, 2.01);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.18, 2.01);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.18, 2.01);
+    width: 20px!important;
+    background: #ff6565;
+}
+#mainSearchFormButton {
+    padding: 5px 16px!important;
+}
+#mainSearchFormButton.open:before {
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+#mainSearchFormButton.open:after {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
