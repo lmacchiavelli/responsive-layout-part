@@ -1716,4 +1716,3 @@
 ![ico](png/32x32/yinyang.png)
 ![ico](png/32x32/zoom_in.png)
 ![ico](png/32x32/zoom_out.png)
-![ico](png/32x32/)
