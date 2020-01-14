@@ -1,0 +1,27 @@
+
+.servicesBox a {
+    -webkit-box-flex: 50%;
+    -ms-flex: 50%;
+    flex: 50%;
+    margin: 5px 0;
+    position: relative;
+    line-height: 50px;
+    padding-left: 65px!important;
+    background-position: 14px!important;
+    text-transform: uppercase!important;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+
+.servicesBox a:after {
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #dadada;
+    left: 0px;
+    top: 50%;
+    margin-top: -27px;
+    border-radius: 50%;
+}
