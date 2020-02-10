@@ -211,5 +211,6 @@
     height: 15px;
 }
 
-
-
+.ajax_message a img, .ajax_warning a img{
+ max-width:100px; 
+}
