@@ -269,5 +269,8 @@ select::-ms-expand {
     padding-left: 30px;
 }
 
-
+#sheetBox #sheetMainImage {
+    width: 100%!important;
+    height: auto!important;
+}
 
