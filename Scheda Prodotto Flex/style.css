@@ -85,7 +85,7 @@
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
-    height: 60px;
+    height: 82px;
     align-items: center;
     max-width: 50%;
 }
@@ -154,11 +154,120 @@ a.buttServInfo:before{
     background-repeat: no-repeat;
     background-position: center;
 }
+#sheetBox .detailsBox table th{
+   line-height: 50px!important;
+    display: flex;
+    align-items: center;
+}
 #wishListButton{
     width: 50%;
+}
+.mainPrice {
+    font-size: 30px;
+}
+#colMid .cart_form_quantity {
+height: 54px;
+    background: #F8F8F8!important;
+    min-width: 190px;
+    padding-left: 16px;
+    padding-right: 10px;
+    font-size: 30px!important;
+    margin-right: 10px;
+    border: 1px solid #EEEEEE;
+    text-align: center;
+    border-radius: 5px!important;
 }
 #wishListButton a{
     width:100%!important;
     max-width: 100%;
     border-top:1px dashed white;
 }
+#sheetProductDescription {
+    padding-top: 20px;
+    color: #8B8B8B;
+    font-size: 19px!important;
+    line-height: 33px!important;
+}
+
+
+#colMid #sheetAddToCartRow input.butt1 {
+    width: 228px;
+    font-size: 19px;
+    height: 54px;
+    padding: 0px;
+    margin: 0px;
+}
+#sheetAddToCartRow form{
+    display: flex;
+}
+#colMid .cart_form_quantity{
+        height: 54px;
+}
+
+
+
+
+
+.cart_form > label {
+  position: relative;
+  /*Don't really need this just for demo styling*/
+  
+}
+
+/*To remove button from IE11, thank you Matt */
+select::-ms-expand {
+     display: none;
+}
+
+.cart_form > label:after {
+  content: '< >';
+  font: 17px "Consolas", monospace;
+  color: rgb(164,164,164);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-tra#868383rm: rotate(90deg);
+  transform: rotate(90deg);
+  right: 11px;
+  /*Adjust for position however you want*/
+  
+  top: 18px;
+  padding: 0 0 2px;
+  border-bottom: 1px solid #757575;
+  /*left line */
+  
+  position: absolute;#ada5a#cacaca
+  pointer-events: none;
+}
+
+.cart_form_quantity {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Add some styling */
+  
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  padding-left: 40px!important
+  color: #333;
+  background-color: #ffffff;
+  background-image: none;
+  border: 1px solid #cccccc;
+  -ms-word-break: normal;
+  word-break: normal;
+}
+
+#sheetBox .detailsBox table tr{
+    display: flex!important;
+    align-items: center;
+}
+#sheetBox .detailsBox td{
+    padding-left: 30px;
+}
+
+
+
