@@ -1,0 +1,44 @@
+
+
+.cubes .row{
+    display: inline!important;
+}
+.filters-wrap .cubes .listProduct{
+    display: block!important;
+}
+#colMid .cubes .resultBox{
+    float: left;
+    max-width: 32%;
+    box-sizing: border-box!important;
+    min-height: 520px;
+    
+}
+
+@media screen and (max-width:793px){
+.cubes .row{
+    display: grid!important;
+    grid-template-columns: 1fr 1fr;
+}
+    #colMid .cubes .resultBox {
+    max-width: 100%;
+    }
+}
+@media screen and (max-width:433px){
+ .cubes .row{
+    grid-template-columns: 1fr;
+}   
+    
+}
+
+
+.block-banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+}
+
+#colMid .carousel .boxTitle{
+    padding-top: 10px;
+}
